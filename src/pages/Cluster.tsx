@@ -229,7 +229,7 @@ const Cluster: React.FC = () => {
           <CardTitle>Basic Information</CardTitle>
           <CardBody>
             <Grid hasGutter>
-              <GridItem span={6}>
+              <GridItem sm={12} md={12} lg={6}>
                 <DescriptionList>
                   <DescriptionListGroup>
                     <DescriptionListTerm>Name</DescriptionListTerm>
@@ -264,7 +264,7 @@ const Cluster: React.FC = () => {
                   )}
                 </DescriptionList>
               </GridItem>
-              <GridItem span={6}>
+              <GridItem sm={12} md={12} lg={6}>
                 {cluster.spec && (
                   <DescriptionList>
                     <DescriptionListGroup>
