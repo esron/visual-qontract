@@ -102,7 +102,7 @@ function App() {
         alignItems: 'center',
         marginLeft: 'auto',
         paddingRight: '1rem',
-        flexShrink: 0
+        flex: '0 0 auto',
       }}>
         <ThemeSwitch />
       </div>
